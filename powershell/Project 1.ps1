@@ -1,4 +1,4 @@
-﻿#This script is to tell you how much free space you have on your hard drive and the time it was ran at.
+﻿#This script is to tell you how much free space you have on your hard drive (C:) and the time it was ran at.
 #Function to get Hard drive Space left
 function Disk {
     Get-PSDrive C
