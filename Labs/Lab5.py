@@ -11,15 +11,17 @@ randomNumber = random.randint(0,100)
 print("Enter an integer from 0 to 100: ")
 yourGuess = int(input())
 
-#nested if loop to check to see if the guess is correct
+#while loop with an if loop inside to check to see if the guess is correct
 while randomNumber != "guess":
-
+    #If the number is lower
     if yourGuess < randomNumber:
         print("Guess is too low, try again. Enter an integer from 0 to 100: ")
         yourGuess = int(input())
+    #If the number is higher
     elif yourGuess > randomNumber:
         print("Guess is too high, try agian. Enter an integer from 0 to 100: ")
         yourGuess = int(input())
+    #if they get the number right with a break at the end to make sure it doesn't repeatedly say the print statement
     else:
         print("Woohoo you guessed it")
         break
