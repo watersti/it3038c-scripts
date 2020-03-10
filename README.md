@@ -6,8 +6,9 @@ My App
 
 ```javascript
 Javascript code block to highlight whats up in my code
-
-project 1:
+```
+Project 1
+```
 Brief Description:
 The point of this script is to show you how much free space/space that you have left on your Hard Drive as well as it tells you the time at the point of execution.  For my Virtual Machine, the result should be “Your C drive has 15.11 GB left and this was conducted at (Insert whenever the script is ran).”
 
@@ -26,3 +27,26 @@ Open PowerShell.
 Navigating to the directory that you put Project 1.ps1 in and typing “& ‘.\Project 1.ps1’”.
 
 Click enter and you will the results of "Your C drive has X GB left and this was conducted at Y."
+```
+Project 2
+```
+Brief Description:
+The point of this script is to show you how many files are more than 200 MB and emails you the names of the files and size (in bytes). For my virtual machine, the result is 3 files that are above 200 MB.
+
+Instructions on how to run Project2.ps1:
+
+Download the Project2.ps1 from github and open it in Powershell ISE.
+
+Change the following fields as needed:
+-In line 2, the "c:\" can be changed for whatever drive you want to check for files bigger than 200MB.
+-In line 5, the To recipient needs to be changed for an email address that you can access.
+
+Once the fields are converted, run the script, and enter the google credentials you have.
+
+If an error is thrown saying "The SMTP server requires a secure connection...," then go to your google account, the security tab, look for Less secure app access, and toggle the button to on.
+
+Rerun the script, enter the credentials, and verify that no error gets thrown.
+When the script is finished it will say that the email is sent,then check the email you put as the To recipient.
+
+Verify that the email was sent and contains files that are bigger than 200MB.
+```
