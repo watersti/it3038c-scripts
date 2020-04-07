@@ -11,3 +11,15 @@ span = soup.find("div", {"class":"main-price"})
 price = span.text
 
 print("Item %s has price of %s" % (title, price))
+
+#Example of output
+#(webscraping) PS C:\it3038c-scripts\python> python .\Lab8.py
+#
+#Item
+#                   Pink Floyd - Dark Side of the Moon Vinyl Record 
+#            has price of
+#
+#                          $39.99            
+#
+#
+#
