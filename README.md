@@ -50,3 +50,25 @@ When the script is finished it will say that the email is sent,then check the em
 
 Verify that the email was sent and contains files that are bigger than 200MB.
 ```
+Project 3
+```
+Brief Description:
+The point of this javascript program is to simulate snake being run through a index.html and javascript code. I wanted to do something more dynamic for the last project seeing as my first two projects were very satis in the sense that it had no user input whether being typed or manipulated via the keyboard.
+
+Instructions on how to run Project 3:
+
+Download all files from the project 3 folder and put them all in the same folder.
+
+Once all the files are downloaded you can cutomize how big you want the canvas to be in both the index.html file and in the snake.js file. (This is optional)
+
+Once you have your canvas the size that you want it to be open the index.html file in your web browser. I would recommend right-clicking on the file an then click open with and select which browser you want to play it on.
+
+Once the browser is selected you will be able to play the game using your arrow keys. 
+
+When you collide into yourself or complete the game (if you can fill the entire canvas) then a game over will be issued.
+
+But most importantly
+
+HAVE FUN!
+
+```
